@@ -1,3 +1,5 @@
+const MAX_POINTS: u32 = 100_000;
+
 fn main() {
     // 변수와 가변성
     let x = 5;
@@ -11,5 +13,8 @@ fn main() {
     println!("The value of y is: {}", y);
     y = 15; // 가변 변수는 값을 변경할 수 있음
     println!("The value of y is: {}", y);
+
+    // 상수 선언
+    println!("The maximum points are: {}", MAX_POINTS);
     
 }
