@@ -17,4 +17,15 @@ fn main() {
     // 상수 선언
     println!("The maximum points are: {}", MAX_POINTS);
     
+
+    // 섀도잉
+    let a = 5;
+    let a = a + 1;
+
+    {
+        let a = a * 2;
+        println!("{a}");
+    }
+
+    println!("{a}");
 }
